@@ -5,11 +5,11 @@
 DHT dht(14, DHT22);
 
 EspMQTTClient client(
-  "Greppi-2G",
+  "WIFI-NAME",
   //"Vodafone-A41734402",
-  "withProxy",
+  "WIFI-PSW",
   //"bqyKhMXsqtTsyK2g",
-  "172.17.3.46",
+  "BROKER-IP",
   "",
   "",
   "ESP32_Sensore_Temperatura",
